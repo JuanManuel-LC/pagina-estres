@@ -6,15 +6,15 @@
     font-style: normal;
 }
 
-body {
-    padding: 0 50px;
-}
+/* body {
+    background-color: antiquewhite;
+} */
 
 /** Header*/
 
 .menu {
     display: flex;
-    /* background-color: aqua; */
+    padding: 0 50px; /* padding general*/
     justify-content: space-between;
     align-items: center;
     border-bottom: 2px solid black;
@@ -24,7 +24,6 @@ body {
 .logo {
     display: flex;
     justify-content: space-between;
-    /* background-color: blueviolet; */
     align-items: center;
 }
 
@@ -46,10 +45,11 @@ body {
 
 .bienvenida-contenedor {
     display: flex;
-    /* padding: 30px 0; */
+    padding: 0 50px; /* padding general*/
     justify-content: space-between;
     align-items: center;
     height: 90%;
+    background-image: ();
 }
 
 .texto {
@@ -62,14 +62,13 @@ body {
 
 .lista-botones {
     display: flex;
+    margin: 0 50px; /* margin general*/
     justify-content: space-between;
     padding-left: 0;
-    /* gap: 30px; */
 }
 
 .box {
     width: 200px;
-    /* background-color: aqua; */
     text-align: center;
     border: 1px solid black;
     border-radius: 15px;
