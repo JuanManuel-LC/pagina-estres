@@ -1,1 +1,83 @@
+body {
+    background-color: #fef3e8;
+}
 
+/* Seccion de audios */
+
+.seccion-audios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 110px 100px;
+}
+
+.musica-clasica,
+.musica-lofi,
+.sonidos-naturaleza {
+    width: 90%;
+    margin: 40px 0;
+    display: flex;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.312);
+}
+
+.contenido {
+    width: 600px;
+    padding: 20px;
+    border-radius: 15px;
+
+    color: #fef3e8;
+    display: flex;
+    /* justify-content: end;
+    align-items: flex-end; */
+}
+
+.cont-clasica {
+    background-image: url(/src/img/musica-clasica.jpg);
+}
+
+.cont-lofi {
+    background-image: url(/src/img/musica-lofi.jpg);
+    align-items: center;
+}
+
+.cont-nature {
+    background-image: url(/src/img/sonidos-naturales.jpg);
+    background-position: center;
+    align-items: flex-end;
+}
+
+.titulo-descripcion {
+    font-size: 100px;
+    font-weight: bolder;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+}
+
+.audios-contenedor {
+    width: 55%;
+}
+
+.lista-audios {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.titulo-audio {
+    margin: 5px 20px 5px;
+    font-size: 20px;
+    /* text-align: center; */
+}
+
+/* Reproductor */
+.audio {
+    padding: 5px;
+    background-color: #f1f3f4;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+audio {
+    width: 100%;
+}
