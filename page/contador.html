@@ -3,7 +3,67 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/reset.css" />
+        <link rel="stylesheet" href="/css/nav.css" />
+        <link rel="stylesheet" href="/css/style-contador.css" />
         <title>Contador</title>
     </head>
-    <body></body>
+    <body>
+        <header>
+            <nav class="menu">
+                <div class="logo">
+                    <h1>LOGO</h1>
+                    <img src="#" alt="#" />
+                </div>
+                <ul class="lista-botones-nav">
+                    <li><a href="/index.html">Inicio</a></li>
+                    <li><a href="videos.html">Videos</a></li>
+                    <li><a href="audios.html">Audios</a></li>
+                    <li>
+                        <a class="active" href="contador.html">Temporizador</a>
+                    </li>
+                    <li>
+                        <a href="ejercicios.html">Ejercicios de respiracion</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div id="contenedor-temporizador">
+                <h1 id="titulo-temporizador">Temporizador</h1>
+                <div id="configuracion">
+                    <label for="entrada-minutos">Minutos: </label>
+                    <input
+                        type="number"
+                        id="entrada-minutos"
+                        min="0"
+                        value="0"
+                    />
+                    <label for="entrada-segundos">Segundos: </label>
+                    <input
+                        type="number"
+                        id="entrada-segundos"
+                        min="0"
+                        max="59"
+                        value="0"
+                    />
+                </div>
+                <div id="pantalla">
+                    <span id="minutos">00</span>:<span id="segundos">00</span>
+                </div>
+                <div id="controles">
+                    <button id="iniciar">Iniciar</button>
+                    <button id="pausar">Pausar</button>
+                    <button id="reiniciar">Reiniciar</button>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Made by <strong>LOS INCREIBLES</strong></p>
+        </footer>
+
+        <script src="/temporizador.js"></script>
+    </body>
 </html>

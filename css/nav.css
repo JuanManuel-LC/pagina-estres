@@ -25,7 +25,7 @@ nav.menu {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #170d0266;
+    background-color: #170d0282;
     z-index: 1000; /* Asegura que el nav esté por encima de otros elementos */
     padding: 0 50px;
     justify-content: space-between;
@@ -44,7 +44,7 @@ nav.menu {
 
 nav.menu.scrolled {
     backdrop-filter: blur(10px);
-    background-color: #170d02b1; /* Cambia el color cuando se hace scroll */
+    background-color: #170d0282; /* Cambia el color cuando se hace scroll */
 }
 
 .lista-botones-nav {

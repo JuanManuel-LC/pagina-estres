@@ -1,0 +1,60 @@
+body {
+    background-color: #fef3e8;
+}
+
+main {
+    padding: 120px 50px;
+    text-align: center;
+}
+
+#contenedor-temporizador {
+    text-align: center;
+    background-color: #fff;
+    padding: 93px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#titulo-temporizador {
+    padding-bottom: 70px;
+    font-size: 90px;
+    color: #634d4d;
+}
+
+#configuracion {
+    margin-bottom: 20px;
+}
+
+#minutos,
+#segundos,
+span {
+    font-size: 70px;
+}
+
+#pantalla {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#controles button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #9b744f;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+#controles button:hover {
+    background-color: #170d02;
+}
+
+#configuracion input {
+    width: 60px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}

@@ -1,16 +1,20 @@
+body {
+    background-color: #fef3e8;
+}
+
 .videos-contenedor {
-    margin: 40px 10px;
+    margin: 120px 10px;
     text-align: center;
     display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: center;
+    flex-direction: column;
     gap: 40px;
 }
 
 .video {
     display: flex;
     align-items: center;
-    /* padding: 15px; */
+    justify-content: space-between;
+    margin: 0 40px;
     border-radius: 15px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.312);
 }
